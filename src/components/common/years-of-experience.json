@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_years_of_experiences",
+  "info": {
+    "displayName": "Years Of Experience",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "years": {
+      "type": "string",
+      "required": true
+    },
+    "text1": {
+      "type": "string",
+      "required": true
+    },
+    "text2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

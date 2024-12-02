@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_hero_common_heroes",
+  "info": {
+    "displayName": "Common Hero",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "pageTitle": {
+      "type": "string",
+      "required": true
+    },
+    "pageName": {
+      "type": "string"
+    },
+    "initialPageName": {
+      "type": "string",
+      "required": true,
+      "default": "Home"
+    }
+  }
+}
