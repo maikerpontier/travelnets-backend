@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About"
+    "displayName": "About",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -87,6 +88,48 @@
       },
       "component": "list.feature-list",
       "min": 2,
+      "required": true
+    },
+    "reasons": {
+      "displayName": "Image Section With Left Title",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.image-section-with-left-title",
+      "required": true
+    },
+    "benefitsTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "benefitsSubTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "benefitsCards": {
+      "displayName": "Card With Icon And Titles",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.card-with-icon-and-titles",
       "required": true
     }
   }

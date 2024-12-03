@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_card_with_icon_and_titles",
+  "info": {
+    "displayName": "Card With Icon And Titles",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

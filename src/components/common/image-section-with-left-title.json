@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_common_image_section_with_left_titles",
+  "info": {
+    "displayName": "Image Section With Left Title",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "destinations": {
+      "type": "string",
+      "required": true
+    },
+    "satisfiedClients": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
