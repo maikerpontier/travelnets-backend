@@ -131,6 +131,42 @@
       },
       "component": "common.card-with-icon-and-titles",
       "required": true
+    },
+    "reviewsImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "reviewsTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "Customer Reviews",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.customer-reviews",
+      "required": true,
+      "max": 5,
+      "min": 1
     }
   }
 }

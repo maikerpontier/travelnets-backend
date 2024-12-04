@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_common_customer_reviews",
+  "info": {
+    "displayName": "Customer Reviews",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "starts": {
+      "type": "integer",
+      "max": 5,
+      "min": 1,
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "reviewerName": {
+      "type": "string",
+      "required": true
+    },
+    "reviewerRole": {
+      "type": "string"
+    },
+    "reviewerPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
