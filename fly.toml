@@ -4,7 +4,7 @@
 #
 
 app = 'travelnets-backend'
-primary_region = 'arn'
+primary_region = 'mia'
 
 [build]
 
